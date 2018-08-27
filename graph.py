@@ -3,7 +3,7 @@ import numpy as np
 
 ### Base class representing a graph with all of the instance methods
 ### We use the ABC library of python because it:
-###	- provides decorators
+###		- provides decorators
 ### 	- provides testability of conformance to a protocol for an object
 ### 	(for inspection, rather than invocation). See: PEP 3119
 class Graph(abc.ABC):
