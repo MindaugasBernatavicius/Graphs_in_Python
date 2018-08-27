@@ -37,6 +37,6 @@ class AdjacencyMatrix(Graph):
 		
 	def add_edge(self, v1, v2, weight=1):
 		if v1 >= self.numVertices \
-			or v2 >= self.numVertices \
-			or v1 < 0 or v2 < 0:
-				raise ValueError("Vertices have to be between 0 and %d" % self.numVertices)
+		or v2 >= self.numVertices \
+		or v1 < 0 or v2 < 0:
+			raise ValueError("Vertices have to be between 0 and %d" % self.numVertices)
